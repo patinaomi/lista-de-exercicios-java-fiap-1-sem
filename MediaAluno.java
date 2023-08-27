@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex001 {
+public class MediaAluno {
 
     /* Ex 001 - Escreva uma classe para ler o nome de um aluno e calcular a média final
     considerando que a mesma será composta por 4 notas: n1, n2, n3 e n4. Ao final, o programa

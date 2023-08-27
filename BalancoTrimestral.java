@@ -1,4 +1,4 @@
-public class ex002 {
+public class BalancoTrimestral {
 
     /* Ex 002 - Na empresa onde trabalhamos há uma tabela com o quanto foi gasto em cada mês. Para fechar o balanço do 
     primeiro trimestre, precisamos somar o gasto total, sabendo que em Janeiro, foram gastos R$ 15000, em 
@@ -15,7 +15,18 @@ public class ex002 {
         criando uma variável mediaMensal junto com uma mensagem. Para isso, concatene a String com valor 
         utilizando a expressão “Valor da média mensal = “ + media mensal
     */
+
     public static void main(String[] args) {
+
+        float gastosJaneiro = 15000;
+        float gastosFevereiro = 23000;
+        float gastosMarco = 17000;
+
+        float gastosTrimestre = gastosJaneiro + gastosFevereiro + gastosMarco;
+        float mediaMensal = gastosTrimestre / 3;
+
+        System.out.printf("Gastos trimestrais: R$%.2f", gastosTrimestre);
+        System.out.printf("\nValor da média mensal: R$%.2f",  mediaMensal);
         
     }
 }
