@@ -23,7 +23,9 @@ public class MediaAluno {
         System.out.print("Digite a nota 3: ");
         float n3 = input.nextFloat();        
         System.out.print("Digite a nota 4: ");
-        float n4 = input.nextFloat();  
+        float n4 = input.nextFloat(); 
+        
+        input.close();
         
         float media = (n1 + n2 + n3 + n4) / 4;
 
