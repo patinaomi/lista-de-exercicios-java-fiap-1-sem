@@ -6,11 +6,11 @@ import java.util.Scanner;
 maior dos 3 lados. A seguir, determine o tipo de triângulo que estes três lados formam, com base nos
 seguintes casos, sempre escrevendo uma mensagem adequada:
 ● se A ≥ B+C, apresente a mensagem: NAO FORMA TRIÂNGULO
-● se A2 = B2 + C2
+● se A² = B² + C²
 , apresente a mensagem: TRIÂNGULO RETÂNGULO
-● se A2 > B2 + C2
+● se A² > B² + C²
 , apresente a mensagem: TRIÂNGULO OBTUSÂNGULO
-● se A2 < B2 + C2
+● se A² < B² + C²
 , apresente a mensagem: TRIÂNGULO ACUTÂNGULO
 ● se os três lados forem iguais, apresente a mensagem: TRIÂNGULO EQUILÁTERO
 ● se apenas dois dos lados forem iguais, apresente a mensagem: TRIÂNGULO ISÓSCELES */
@@ -30,15 +30,15 @@ public class ex018 {
 
         //ordene-os em ordem decrescente
         if(a<b) {
-            x = a;
-            a = b;
-            b = x;
+            x = a; 
+            a = b; 
+            b = x; 
         }
 
         if(a<c) {
-            x = a;
-            a = c;
-            b = x;
+            x = c;
+            c = a;
+            a = x;
         }
 
         if(b<c) {
@@ -47,10 +47,23 @@ public class ex018 {
             c = x;
         }
 
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
+        System.out.format("Valor de A: %.2f B: %.2f C: %.2f\n", a, b, c);
         
         input.close();
+
+        if(a >= (b+c)) {
+            System.out.println("Não forma triângulo.");
+        } if ((float)Math.pow(a, 2) == (Math.pow(b,2) + Math.pow(c, 2))) {
+            System.out.println("Triângulo retângulo.");
+        } if ((float)Math.pow(a, 2) > (Math.pow(b, 2) + Math.pow(c, 2))) {
+            System.out.println("Triângulo obtusângulo.");
+        } if ((float)Math.pow(a, 2) < (Math.pow(b, 2) + Math.pow(c, 2))) {
+            System.out.println("Triângulo acutângulo.");
+        } if (a == b && b == c && a ==c) {
+            System.out.println("Triângulo equilátero.");
+
+        } if ((a == b && b != c) || (a == c  && b != c) || (b == c && a != b)) {
+            System.out.println("Triângulo isósceles.");
+        }
     }
 }
