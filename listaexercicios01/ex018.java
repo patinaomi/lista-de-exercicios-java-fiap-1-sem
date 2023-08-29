@@ -1,7 +1,5 @@
 package listaexercicios01;
 
-import java.util.Scanner;
-
 /*Leia 3 números decimais A, B e C e ordene-os em ordem decrescente, de modo que o lado A representa o
 maior dos 3 lados. A seguir, determine o tipo de triângulo que estes três lados formam, com base nos
 seguintes casos, sempre escrevendo uma mensagem adequada:
@@ -14,6 +12,8 @@ seguintes casos, sempre escrevendo uma mensagem adequada:
 , apresente a mensagem: TRIÂNGULO ACUTÂNGULO
 ● se os três lados forem iguais, apresente a mensagem: TRIÂNGULO EQUILÁTERO
 ● se apenas dois dos lados forem iguais, apresente a mensagem: TRIÂNGULO ISÓSCELES */
+
+import java.util.Scanner;
 
 public class ex018 {
     public static void main(String[] args) {
