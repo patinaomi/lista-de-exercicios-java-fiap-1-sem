@@ -18,6 +18,8 @@ public class ex011 {
             System.out.print("O número " + numero + " é neutro.");
         } else {
             System.out.print("O número " + numero + " é negativo.");
-        }  
+        } 
+         
+        input.close();
     }
 }

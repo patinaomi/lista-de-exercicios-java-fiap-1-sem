@@ -21,6 +21,7 @@ public class ex008 {
 
         System.out.printf("Média: %.2f", media);
 
+        input.close();
 
     }
     
