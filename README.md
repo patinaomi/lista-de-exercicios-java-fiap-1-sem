@@ -94,15 +94,12 @@ mensagem "Valores aceitos", senão escrever "Valores não aceitos".
 Leia 3 números decimais A, B e C e ordene-os em ordem decrescente, de modo que o lado A representa o
 maior dos 3 lados. A seguir, determine o tipo de triângulo que estes três lados formam, com base nos
 seguintes casos, sempre escrevendo uma mensagem adequada:
-● se A ≥ B+C, apresente a mensagem: NAO FORMA TRIÂNGULO
-● se A² = B² + C²
-, apresente a mensagem: TRIÂNGULO RETÂNGULO
-● se A² > B² + C²
-, apresente a mensagem: TRIÂNGULO OBTUSÂNGULO
-● se A² < B² + C²
-, apresente a mensagem: TRIÂNGULO ACUTÂNGULO
-● se os três lados forem iguais, apresente a mensagem: TRIÂNGULO EQUILÁTERO
-● se apenas dois dos lados forem iguais, apresente a mensagem: TRIÂNGULO ISÓSCELES
+* se A ≥ B+C, apresente a mensagem: NAO FORMA TRIÂNGULO
+* se A² = B² + C², apresente a mensagem: TRIÂNGULO RETÂNGULO
+* se A² > B² + C², apresente a mensagem: TRIÂNGULO OBTUSÂNGULO
+* se A² < B² + C², apresente a mensagem: TRIÂNGULO ACUTÂNGULO
+* se os três lados forem iguais, apresente a mensagem: TRIÂNGULO EQUILÁTERO
+* se apenas dois dos lados forem iguais, apresente a mensagem: TRIÂNGULO ISÓSCELES
 
 ### - Lista 2
 
