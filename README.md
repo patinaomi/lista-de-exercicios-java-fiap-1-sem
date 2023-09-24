@@ -133,27 +133,27 @@ Escreva um programa para ler a quantidade de alunos existentes em uma turma. Dep
 #### [Exercicio 010](listaexercicios02/ex010.java)
 Faça um programa que calcule e imprima o resultado da soma abaixo (lembre-se de que tanto as divisões quanto o resultado devem ser decimais). Utilize o laço que lhe for mais conveniente.
 
-[img 10](/listaexercicios02/10.png)
+![img 10](/listaexercicios02/10.png)
 
 #### [Exercicio 011](listaexercicios02/ex011.java)
 Faça um programa que leia um número natural N e calcule a soma abaixo (lembre-se de que tanto as divisões quanto o resultado devem ser decimais). Utilize o laço que lhe for mais conveniente.
 
-[img 11](/listaexercicios02/11.png)
+![img 11](/listaexercicios02/11.png)
 
 #### [Exercicio 012](listaexercicios02/ex012.java)
 Faça um programa que leia um número natural N e calcule a soma abaixo (lembre-se de que tanto as divisões quanto o resultado devem ser decimais). Utilize o laço que lhe for mais conveniente.
 
-[img 12](/listaexercicios02/12.png)
+![img 12](/listaexercicios02/12.png)
 
 #### [Exercicio 013](listaexercicios02/ex013.java)
 Faça um programa que leia um número natural N e calcule a soma abaixo (lembre-se de que tanto as divisões quanto o resultado devem ser decimais). Utilize o laço que lhe for mais conveniente.
 
-[img 13](/listaexercicios02/13.png)
+![img 13](/listaexercicios02/13.png)
 
 #### [Exercicio 014](listaexercicios02/ex014.java)
 Faça um programa que leia um número natural N e calcule a soma abaixo (lembre-se de que tanto as divisões quanto o resultado devem ser decimais). Utilize o laço que lhe for mais conveniente.
 
-[img 14](/listaexercicios02/14.png)
+![img 14](/listaexercicios02/14.png)
 
 #### [Exercicio 015](listaexercicios02/ex015.java)
 Faça um programa que leia um número inteiro N maior do que zero e calcule o fatorial desse número. Fatorial de N é representado por N! e calculado da seguinte maneira:
