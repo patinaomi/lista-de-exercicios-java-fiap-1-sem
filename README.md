@@ -101,5 +101,77 @@ seguintes casos, sempre escrevendo uma mensagem adequada:
 * se os três lados forem iguais, apresente a mensagem: TRIÂNGULO EQUILÁTERO
 * se apenas dois dos lados forem iguais, apresente a mensagem: TRIÂNGULO ISÓSCELES
 
+[:arrow_up: voltar para o índice](#indice)
+
 ### - Lista 2
+#### [Exercicio 001](listaexercicios02/ex001.java)
+Faça um programa que mostre todos os números inteiros de 1 a 50. Use o laço WHILE.
+#### [Exercicio 002](listaexercicios02/ex002.java)
+Faça um programa que leia um número N do usuário, some todos os números inteiros de 1 a N, e mostre o resultado obtido. Use o laço WHILE.
+
+#### [Exercicio 003](listaexercicios02/ex003.java)
+Escreva um programa que leia um conjunto de 10 números inteiros positivos. Seu programa deve determinar e imprimir o maior deles. Use o laço FOR.
+
+#### [Exercicio 004](listaexercicios02/ex004.java)
+Faça um programa que gere a seguinte série: 10, 20, 30, 40, ..., 990, 1000. Use o laço FOR.
+
+#### [Exercicio 005](listaexercicios02/ex005.java)
+Faça um programa para imprimir os números pares entre 100 e 1, em ordem decrescente, ou seja, o laço deve iniciar em 100 e encerrar em 1. Use o laço FOR.
+
+#### [Exercicio 006](listaexercicios02/ex006.java)
+Faça um programa para ler e escrever dados de uma turma de 5 alunos. O programa deve pedir dados como nome, idade e sexo. O programa deve imprimir os dados do aluno mais velho. Use o laço DO-WHILE.
+
+#### [Exercicio 007](listaexercicios02/ex007.java)
+Escreva um programa que imprima todos os múltiplos de 7 menores que 200. Use o laço WHILE.
+
+#### [Exercicio 008](listaexercicios02/ex008.java)
+Calcular e mostrar a média aritmética dos números pares compreendidos entre 13 e 73. Utilize o laço que lhe for mais conveniente.
+
+#### [Exercicio 009](listaexercicios02/ex009.java)
+Escreva um programa para ler a quantidade de alunos existentes em uma turma. Depois disso, o programa deve ler as notas de cada um destes alunos, calcular e mostrar na tela a média aritmética destas notas. Utilize o laço WHILE.
+
+#### [Exercicio 010](listaexercicios02/ex010.java)
+Faça um programa que calcule e imprima o resultado da soma abaixo (lembre-se de que tanto as divisões quanto o resultado devem ser decimais). Utilize o laço que lhe for mais conveniente.
+
+#### [Exercicio 011](listaexercicios02/ex011.java)
+Faça um programa que leia um número natural N e calcule a soma abaixo (lembre-se de que tanto as divisões quanto o resultado devem ser decimais). Utilize o laço que lhe for mais conveniente.
+
+#### [Exercicio 012](listaexercicios02/ex012.java)
+Faça um programa que leia um número natural N e calcule a soma abaixo (lembre-se de que tanto as divisões quanto o resultado devem ser decimais). Utilize o laço que lhe for mais conveniente.
+
+#### [Exercicio 013](listaexercicios02/ex013.java)
+Faça um programa que leia um número natural N e calcule a soma abaixo (lembre-se de que tanto as divisões quanto o resultado devem ser decimais). Utilize o laço que lhe for mais conveniente.
+
+#### [Exercicio 014](listaexercicios02/ex014.java)
+Faça um programa que leia um número natural N e calcule a soma abaixo (lembre-se de que tanto as divisões quanto o resultado devem ser decimais). Utilize o laço que lhe for mais conveniente.
+
+#### [Exercicio 015](listaexercicios02/ex015.java)
+Faça um programa que leia um número inteiro N maior do que zero e calcule o fatorial desse número. Fatorial de N é representado por N! e calculado da seguinte maneira:
+𝑁! = 𝑁 ∗ (𝑁 − 1) ∗ (𝑁 − 2) ∗. . .∗ 3 ∗ 2 ∗ 1
+Utilize o laço que lhe for mais conveniente.
+
+#### [Exercicio 016](listaexercicios02/ex016.java)
+Leia um valor inteiro N. Este valor será a quantidade de valores que serão lidos em seguida do usuário.
+Para cada valor lido, mostre uma mensagem em português dizendo se este valor lido é par (PAR), ímpar (ÍMPAR), positivo (POSITIVO) ou negativo (NEGATIVO). No caso do valor ser igual a zero (0), seu programa deverá imprimir apenas NULO. Utilize o laço DO-WHILE.
+
+#### [Exercicio 017](listaexercicios02/ex017.java)
+Ler um número inteiro N e calcular e imprimir todos os seus divisores. Exemplo: para o número 6, temos os seguintes divisores 1, 2, 3, 6. Utilize o laço que lhe for mais conveniente.
+
+#### [Exercicio 018](listaexercicios02/ex018.java)
+A seguinte sequência de números 0, 1, 1, 2, 3, 5, 8, 13, 21... é conhecida como série de Fibonacci. Nessa sequência, cada número, depois dos 2 primeiros, é igual à soma dos 2 anteriores. Escreva um algoritmo que leia um inteiro N (onde N < 46) e mostre os N primeiros números dessa série. Utilize o laço que lhe for mais conveniente.
+
+#### [Exercicio 019](listaexercicios02/ex019.java)
+Escreva um programa que repita a leitura de uma senha até que ela seja válida. Para cada leitura de senha incorreta informada, escrever a mensagem "Senha Invalida". Quando a senha for informada corretamente deve ser impressa a mensagem "Acesso Permitido" e o algoritmo encerrado. Considere que a senha correta é o valor 2002. Utilize o laço que lhe for mais conveniente.
+
+#### [Exercicio 020](listaexercicios02/ex020.java)
+Escreva um programa capaz de ler o saldo inicial de uma conta bancária e um número indeterminado de operações de depósito e saque.
+O usuário deve digitar “1” para realizar um depósito, “2” para realizar um saque.
+Após digitar o código da operação, o usuário deve digitar o valor. As operações devem continuar sendo realizadas até que o usuário digite o código de operação “3”.
+Ao digitar “3”, o programa deve ser encerrado e o saldo final da conta deve ser impresso com as seguintes mensagens: CONTA ZERADA (caso o saldo final seja 0), CONTA ESTOURADA (se o saldo for negativo) ou CONTA PREFERENCIAL (se o saldo for positivo).
+Utilize o laço DO-WHILE.
+
+#### [Exercicio 021](listaexercicios02/ex021.java)
+Na matemática, um número perfeito é um número inteiro para o qual a soma de todos os seus divisores positivos próprios (excluindo ele mesmo) é igual ao próprio número. Por exemplo o número 6 é perfeito, pois 1+2+3 é igual a 6. Sua tarefa é escrever um programa que imprima se um determinado número é perfeito ou não. Utilize o laço que lhe for mais conveniente.
+
+[:arrow_up: voltar para o índice](#indice)
 
