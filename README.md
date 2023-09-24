@@ -6,8 +6,8 @@ Este repositório tem como objetivo reunir alguns exercícios para ajudar alunos
 ## Índice
 * [Descrição](#descrição)
 * [Enunciados](#enunciados)
-  * [Lista 1](#lista-1)
-  * [Lista 2](#lista-2)
+  * [Lista 1](#--lista-1)
+  * [Lista 2](#--lista-2)
 
 
 ## Enunciados
@@ -101,7 +101,7 @@ seguintes casos, sempre escrevendo uma mensagem adequada:
 * se os três lados forem iguais, apresente a mensagem: TRIÂNGULO EQUILÁTERO
 * se apenas dois dos lados forem iguais, apresente a mensagem: TRIÂNGULO ISÓSCELES
 
-[:arrow_up: voltar para o índice](#indice)
+[:arrow_up: voltar para o índice :arrow_up:](#índice)
 
 ### - Lista 2
 #### [Exercicio 001](listaexercicios02/ex001.java)
@@ -173,5 +173,5 @@ Utilize o laço DO-WHILE.
 #### [Exercicio 021](listaexercicios02/ex021.java)
 Na matemática, um número perfeito é um número inteiro para o qual a soma de todos os seus divisores positivos próprios (excluindo ele mesmo) é igual ao próprio número. Por exemplo o número 6 é perfeito, pois 1+2+3 é igual a 6. Sua tarefa é escrever um programa que imprima se um determinado número é perfeito ou não. Utilize o laço que lhe for mais conveniente.
 
-[:arrow_up: voltar para o índice](#indice)
+[:arrow_up: voltar para o índice :arrow_up:](#índice)
 
