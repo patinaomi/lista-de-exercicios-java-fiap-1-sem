@@ -5,10 +5,24 @@ Este repositório tem como objetivo reunir alguns exercícios para ajudar alunos
 
 ## Índice
 * [Descrição](#descrição)
+* [Provas](#enunciados)
+  * [CP1](#CP1)
+  * [CP2](#CP2)
+  * [CP3](#CP3)
 * [Enunciados](#enunciados)
   * [Lista 1](#--lista-1)
   * [Lista 2](#--lista-2)
 
+## Provas
+### CP1
+#### [Exercicio 001](listaexercicios01/ex001.java)
+Fazer um algoritmo que leia dois números e imprima na tela o produto (multiplicação) dos dois números.
+### CP2
+#### [Exercicio 001](listaexercicios01/ex001.java)
+Fazer um algoritmo que leia dois números e imprima na tela o produto (multiplicação) dos dois números.
+### CP3
+#### [Exercicio 001](listaexercicios01/ex001.java)
+Fazer um algoritmo que leia dois números e imprima na tela o produto (multiplicação) dos dois números.
 
 ## Enunciados
 ### - Lista 1
