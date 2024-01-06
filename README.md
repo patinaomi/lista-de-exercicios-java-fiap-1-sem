@@ -37,11 +37,28 @@ Criar métodos para acessar e modificar os atributos (getters e setters) para ca
 O programa principal deve instanciar objetos da classe Conta e utilizar seus métodos.
 
 ### CP2
-#### [Exercicio 001](listaexercicios01/ex001.java)
-Fazer um algoritmo que leia dois números e imprima na tela o produto (multiplicação) dos dois números.
+#### [Exercicio 001](cp2/Monitoramento.java)
+ Sistema de monitoramento de temperaturas 
+Um  sistema  de  monitoramento  de  temperaturas  está  em  operação  em  uma  cidade  no sudeste brasileiro, porém, é preciso melhorá-lo e expandir o seu uso para outras cidades. Para  isto,  você  foi  contratado  para  desenvolver  um  novo  sistema  em  Java  que  faça  o mapeamento  das  temperaturas  médias  em  um  determinado  período  e  que  seja  capaz  de dar algumas informações sobre esses dados. 
+Como  parte  dos  requisitos,  o  programa  deve  coletar  algumas  temperaturas  médias (diárias),  durante  um  período  determinado  pelo  usuário  (mapeados  em  dias/semana), permita a impressão de todas as temperaturas mapeadas, a maior e a menor temperatura lida,  a  média  das  temperaturas  mapeadas,  e  uma  lista  com  as  temperaturas  negativas. Para isso, escreva um programa que tenha:
+1) Um método que solicite ao usuário qual o período será mapeado (dias/semana)
+2) Um método para mapear/coletar as temperaturas em uma matriz (dias/semana)
+3) Um método para obter a maior e a menor temperatura mapeada no período
+4) Um  método  para  ‘separar’  (em  um  array)  as temperaturas  negativas  no  período mapeado
+5) Um método para obter a temperatura média no período
+6) Função principal para testar o programa
+
 ### CP3
-#### [Exercicio 001](listaexercicios01/ex001.java)
-Fazer um algoritmo que leia dois números e imprima na tela o produto (multiplicação) dos dois números.
+#### [Exercicio 001](cp3/Competicao.java)
+Em uma competição de salto em distância, cada atleta tem direito a realizar cinco saltos.  O  resultado  do  atleta  será  determinado  pela  média  dos  cinco  valores alcançados. Crie um programa que receba o nome do atleta e as cinco distâncias alcançadas por ele em seus saltos e depois informe o nome, os saltos e a  média  dos  saltos.  O  programa  deve  armazenar  os  valores  alcançados  em  cada salto  em  uma  sequência  e  ser  encerrado  quando  não  for  informado  o  nome  do atleta. Segue um exemplo de saída do programa: 
+
+![img 01](/cp3/img001.png)
+
+#### [Exercicio 002](cp3/Consumo.java)
+Faça  um  programa  que  leia  (carregue  via  teclado)  uma  lista  com  os modelos  de  cinco  carros  (exemplo  de  modelos:  FUSCA,  GOL,  VECTRA,  etc). Carregue   uma   outra   lista   com   o   consumo   desses   carros,   isto   é,   quantos quilômetros  cada  um  desses  carros  faz  com  um  litro  de  combustível.  Calcule  e mostre:a.O modelo do carro mais econômico;
+Quantos  litros  de  combustível  cada  um  dos  carros  cadastrados  consome  para percorrer   uma   distância   de   1000   quilômetros   e   quanto   isto   custará, considerando  que  o  litro  da  gasolina  custe  R$  6,89  o  litro.Abaixo  segue  uma saída  de  exemplo.  O  disposição  das  informações  deve  ser  o  mais  próxima possível ao exemplo. Os dados são fictícios e podem mudar a cada execução do programa.
+
+![img 02](/cp3/img002.png)
 
 ## Enunciados
 ### - Lista 1
